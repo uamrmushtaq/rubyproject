@@ -1,0 +1,22 @@
+--------------task 1-----------------
+Background
+Deoxyribonucleic acid (DNA) is a chemical found in the nucleus of cells and carries the "instructions" for the development and functioning of living organisms.
+
+If you want to know more http://en.wikipedia.org/wiki/DNA
+
+DNA is created by two strands of nucleotides that are bonded together in complementary pairs. For each base on one side, there is an opposite base on the other side. There are 4 symbols used to represent the bases, A, T, C, and G.
+
+Symbols A and T are complements of each other, as are C and G.
+
+Task
+You have function with one side of the DNA, you need to get the other complementary side. The DNA strand may be empty if there is no DNA at all. In this case, you can simple return the empty string.
+
+
+--------------task 2-----------------
+If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+
+Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in.
+
+
+---------------task 3-----------------
+You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.

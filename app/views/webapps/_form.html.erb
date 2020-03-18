@@ -1,0 +1,27 @@
+<%= form_with(model: webapp, local: true) do |form| %>
+  <% if webapp.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(webapp.errors.count, "error") %> prohibited this webapp from being saved:</h2>
+
+      <ul>
+        <% webapp.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :element %>
+    <%= form.text_field :element %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

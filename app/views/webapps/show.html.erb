@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @webapp.name %>
+</p>
+
+<p>
+  <strong>Element:</strong>
+  <%= @webapp.element %>
+</p>
+
+<%= link_to 'Edit', edit_webapp_path(@webapp) %> |
+<%= link_to 'Back', webapps_path %>
