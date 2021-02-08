@@ -25,7 +25,7 @@ gem 'jbuilder', '~> 2.7'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'tzinfo' , platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'carrierwave', '~> 0.9'
+gem 'carrierwave', '~> 1.3'
 
 gem 'bootstrap-sass', '~> 2.3.2'
 # Use Active Storage variant
